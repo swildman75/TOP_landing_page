@@ -102,10 +102,35 @@ h1 {
 
 .box_container p {
   margin-top: 20px;
+  color: #616A76;
 }
 
 .random_boxes {
   display: flex;
   justify-content: center;
   gap: 45px;
+}
+
+/* Qoute Section */
+.quote_section {
+  height: 75vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_text {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote_content_wrapper {
+  max-width: 600px;
+}
+
+.quote_author {
+  margin-left: 400px;
+  margin-top: 25px;
 }
