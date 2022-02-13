@@ -134,3 +134,36 @@ h1 {
   margin-left: 400px;
   margin-top: 25px;
 }
+
+/* CTA Section */
+.cta_section {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta_content_wrapper {
+  width: 1000px;
+  height: 200px;
+  background-color: #3882f6;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+.cta_content_wrapper button {
+  height: 40px;
+  width: 125px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bolder;
+  border: 3px solid #e5e7eb;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+
+.cta_content_wrapper_2 {
+  margin-left: 150px;
+}
